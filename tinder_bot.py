@@ -21,10 +21,10 @@ class TinderBot:
         self.driver.switch_to_window(popup)
 
         fb_email = self.driver.find_element_by_xpath('//*[@id="email"]')
-        fb_email.send_keys("justinmatthias66@gmail.com")
+        fb_email.send_keys("Email")
 
         fb_pwd = self.driver.find_element_by_xpath('//*[@id="pass"]')
-        fb_pwd.send_keys("Nachhause15")
+        fb_pwd.send_keys("ped")
 
         fb_login = self.driver.find_element_by_xpath('//*[@id="loginbutton"]')
         fb_login.click()
